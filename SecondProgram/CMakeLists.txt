@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( SecondProgram )
+add_executable( SecondProgram SecondProgram.cpp )
+target_link_libraries( SecondProgram  )
+find_package( OpenCV REQUIRED )
+target_link_libraries( SecondProgram ${OpenCV_LIBS} )

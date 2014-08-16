@@ -1,0 +1,2 @@
+make
+./SecondProgram $1

@@ -1,6 +1,7 @@
 # (Make main directory)
 mkdir $1
 cd $1
+cp ../lena.jpg lena.jpg
 
 # (Create the Cmake file)
 cat <<EOF > CMakeLists.txt
@@ -44,6 +45,11 @@ int main(int argc, char** argv )
 }
 EOF
 
+# (Create the Run file)
+cat <<EOF > run.sh
+make
+./$1 \$1
+EOF
+
 # (Build it)
 cmake .
-make
