@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.0.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.0.1/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_SOURCE_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_BINARY_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /Users/Raaj/git/cv/SecondProgram
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake cache editor..."
-	/usr/local/Cellar/cmake/3.0.0/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.0.1/bin/ccmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -64,7 +64,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/usr/local/Cellar/cmake/3.0.0/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/usr/local/Cellar/cmake/3.0.1/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -73,9 +73,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/cv/SecondProgram/CMakeFiles /Users/Raaj/git/cv/SecondProgram/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/cv/SecondProgram/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles 0
 .PHONY : all
 
 # The main clean target

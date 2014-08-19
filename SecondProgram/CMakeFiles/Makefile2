@@ -38,19 +38,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.0.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.0.1/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_SOURCE_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_BINARY_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 #=============================================================================
 # Target rules for target CMakeFiles/SecondProgram.dir
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /Users/Raaj/git/cv/SecondProgram
 CMakeFiles/SecondProgram.dir/all:
 	$(MAKE) -f CMakeFiles/SecondProgram.dir/build.make CMakeFiles/SecondProgram.dir/depend
 	$(MAKE) -f CMakeFiles/SecondProgram.dir/build.make CMakeFiles/SecondProgram.dir/build
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raaj/git/cv/SecondProgram/CMakeFiles  1
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles  1
 	@echo "Built target SecondProgram"
 .PHONY : CMakeFiles/SecondProgram.dir/all
 
@@ -69,9 +69,9 @@ all: CMakeFiles/SecondProgram.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/SecondProgram.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/cv/SecondProgram/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles 1
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/SecondProgram.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/cv/SecondProgram/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles 0
 .PHONY : CMakeFiles/SecondProgram.dir/rule
 
 # Convenience name for target.

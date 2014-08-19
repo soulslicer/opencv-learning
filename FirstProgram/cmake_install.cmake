@@ -1,4 +1,4 @@
-# Install script for directory: /Users/Raaj/git/cv/FirstProgram
+# Install script for directory: /Users/Raaj/git/opencv-learning/FirstProgram
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -33,7 +33,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/Users/Raaj/git/cv/FirstProgram/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/Users/Raaj/git/opencv-learning/FirstProgram/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/Users/Raaj/git/cv/FirstProgram/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/Users/Raaj/git/opencv-learning/FirstProgram/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

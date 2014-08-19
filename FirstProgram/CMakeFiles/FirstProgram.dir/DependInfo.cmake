@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/Users/Raaj/git/cv/FirstProgram/FirstProgram.cpp" "/Users/Raaj/git/cv/FirstProgram/CMakeFiles/FirstProgram.dir/FirstProgram.cpp.o"
+  "/Users/Raaj/git/opencv-learning/FirstProgram/FirstProgram.cpp" "/Users/Raaj/git/opencv-learning/FirstProgram/CMakeFiles/FirstProgram.dir/FirstProgram.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "Clang")
 

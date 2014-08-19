@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/Users/Raaj/git/cv/FirstProgram/FirstProgram.cpp
+/Users/Raaj/git/opencv-learning/FirstProgram/FirstProgram.cpp
 opencv2/highgui/highgui.hpp
-/Users/Raaj/git/cv/FirstProgram/opencv2/highgui/highgui.hpp
+/Users/Raaj/git/opencv-learning/FirstProgram/opencv2/highgui/highgui.hpp
 
 /usr/local/include/opencv2/core/core.hpp
 opencv2/core/types_c.h
@@ -58,8 +58,6 @@ limits.h
 ext/atomicity.h
 -
 bits/atomicity.h
--
-windows.h
 -
 limits
 -

@@ -1,7 +1,6 @@
 # (Make main directory)
 mkdir $1
 cd $1
-cp ../lena.jpg lena.jpg
 
 # (Create the Cmake file)
 cat <<EOF > CMakeLists.txt

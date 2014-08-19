@@ -26,19 +26,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.0/bin/cmake
+CMAKE_COMMAND = /usr/local/Cellar/cmake/3.0.1/bin/cmake
 
 # The command to remove a file.
-RM = /usr/local/Cellar/cmake/3.0.0/bin/cmake -E remove -f
+RM = /usr/local/Cellar/cmake/3.0.1/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_SOURCE_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Raaj/git/cv/SecondProgram
+CMAKE_BINARY_DIR = /Users/Raaj/git/opencv-learning/SecondProgram
 
 # Include any dependencies generated for this target.
 include CMakeFiles/SecondProgram.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/SecondProgram.dir/flags.make
 
 CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o: CMakeFiles/SecondProgram.dir/flags.make
 CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o: SecondProgram.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raaj/git/cv/SecondProgram/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o -c /Users/Raaj/git/cv/SecondProgram/SecondProgram.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o -c /Users/Raaj/git/opencv-learning/SecondProgram/SecondProgram.cpp
 
 CMakeFiles/SecondProgram.dir/SecondProgram.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/SecondProgram.dir/SecondProgram.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Raaj/git/cv/SecondProgram/SecondProgram.cpp > CMakeFiles/SecondProgram.dir/SecondProgram.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /Users/Raaj/git/opencv-learning/SecondProgram/SecondProgram.cpp > CMakeFiles/SecondProgram.dir/SecondProgram.cpp.i
 
 CMakeFiles/SecondProgram.dir/SecondProgram.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/SecondProgram.dir/SecondProgram.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Raaj/git/cv/SecondProgram/SecondProgram.cpp -o CMakeFiles/SecondProgram.dir/SecondProgram.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /Users/Raaj/git/opencv-learning/SecondProgram/SecondProgram.cpp -o CMakeFiles/SecondProgram.dir/SecondProgram.cpp.s
 
 CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o.requires:
 .PHONY : CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o.requires
@@ -81,23 +81,39 @@ SecondProgram_EXTERNAL_OBJECTS =
 
 SecondProgram: CMakeFiles/SecondProgram.dir/SecondProgram.cpp.o
 SecondProgram: CMakeFiles/SecondProgram.dir/build.make
-SecondProgram: /usr/local/lib/libopencv_calib3d.dylib
-SecondProgram: /usr/local/lib/libopencv_contrib.dylib
-SecondProgram: /usr/local/lib/libopencv_core.dylib
-SecondProgram: /usr/local/lib/libopencv_features2d.dylib
-SecondProgram: /usr/local/lib/libopencv_flann.dylib
-SecondProgram: /usr/local/lib/libopencv_gpu.dylib
-SecondProgram: /usr/local/lib/libopencv_highgui.dylib
-SecondProgram: /usr/local/lib/libopencv_imgproc.dylib
-SecondProgram: /usr/local/lib/libopencv_legacy.dylib
-SecondProgram: /usr/local/lib/libopencv_ml.dylib
-SecondProgram: /usr/local/lib/libopencv_nonfree.dylib
-SecondProgram: /usr/local/lib/libopencv_objdetect.dylib
-SecondProgram: /usr/local/lib/libopencv_photo.dylib
-SecondProgram: /usr/local/lib/libopencv_stitching.dylib
-SecondProgram: /usr/local/lib/libopencv_ts.dylib
-SecondProgram: /usr/local/lib/libopencv_video.dylib
-SecondProgram: /usr/local/lib/libopencv_videostab.dylib
+SecondProgram: /usr/local/lib/libopencv_videostab.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_video.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_ts.a
+SecondProgram: /usr/local/lib/libopencv_superres.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_stitching.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_photo.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_ml.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_flann.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_core.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_contrib.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_nonfree.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_ocl.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_gpu.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_photo.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_objdetect.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_legacy.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_video.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_ml.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_calib3d.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_features2d.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_highgui.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_imgproc.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_flann.2.4.9.dylib
+SecondProgram: /usr/local/lib/libopencv_core.2.4.9.dylib
 SecondProgram: CMakeFiles/SecondProgram.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable SecondProgram"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/SecondProgram.dir/link.txt --verbose=$(VERBOSE)
@@ -114,6 +130,6 @@ CMakeFiles/SecondProgram.dir/clean:
 .PHONY : CMakeFiles/SecondProgram.dir/clean
 
 CMakeFiles/SecondProgram.dir/depend:
-	cd /Users/Raaj/git/cv/SecondProgram && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Raaj/git/cv/SecondProgram /Users/Raaj/git/cv/SecondProgram /Users/Raaj/git/cv/SecondProgram /Users/Raaj/git/cv/SecondProgram /Users/Raaj/git/cv/SecondProgram/CMakeFiles/SecondProgram.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Raaj/git/opencv-learning/SecondProgram && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Raaj/git/opencv-learning/SecondProgram /Users/Raaj/git/opencv-learning/SecondProgram /Users/Raaj/git/opencv-learning/SecondProgram /Users/Raaj/git/opencv-learning/SecondProgram /Users/Raaj/git/opencv-learning/SecondProgram/CMakeFiles/SecondProgram.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/SecondProgram.dir/depend
 

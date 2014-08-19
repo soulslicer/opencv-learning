@@ -6,11 +6,11 @@
 
 #IncludeRegexTransform: 
 
-/Users/Raaj/git/cv/SecondProgram/SecondProgram.cpp
+/Users/Raaj/git/opencv-learning/SecondProgram/SecondProgram.cpp
 opencv2/highgui/highgui.hpp
-/Users/Raaj/git/cv/SecondProgram/opencv2/highgui/highgui.hpp
+/Users/Raaj/git/opencv-learning/SecondProgram/opencv2/highgui/highgui.hpp
 opencv2/imgproc/imgproc.hpp
-/Users/Raaj/git/cv/SecondProgram/opencv2/imgproc/imgproc.hpp
+/Users/Raaj/git/opencv-learning/SecondProgram/opencv2/imgproc/imgproc.hpp
 iostream
 -
 
@@ -62,8 +62,6 @@ limits.h
 ext/atomicity.h
 -
 bits/atomicity.h
--
-windows.h
 -
 limits
 -

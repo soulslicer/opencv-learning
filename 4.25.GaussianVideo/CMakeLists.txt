@@ -1,0 +1,6 @@
+cmake_minimum_required(VERSION 2.8)
+project( 4.25.GaussianVideo )
+add_executable( 4.25.GaussianVideo 4.25.GaussianVideo.cpp )
+target_link_libraries( 4.25.GaussianVideo  )
+find_package( OpenCV REQUIRED )
+target_link_libraries( 4.25.GaussianVideo ${OpenCV_LIBS} )
